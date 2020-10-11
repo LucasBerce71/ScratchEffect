@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: repeating-linear-gradient(0deg, #FFF 0%, #FFF 50%, #000 50%, #000 100%),
+              repeating-linear-gradient(90deg, #FFF 0%, #FFF 50%, #000 50%, #000 100%);
+  background-size: 30px 30px;
+  background-blend-mode: difference;
+  overflow: hidden;
+}
+
+span {
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 150px;
+  background: url('assets/bg.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  pointer-events: none;
+  border-radius: 50%;
+}
